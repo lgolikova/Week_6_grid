@@ -86,13 +86,13 @@ p {
 
 .navmain {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     height: 120px;
+    width: 1320px;
     column-gap: 10px;
     justify-items: center;
     align-items: center;
-    margin-left: 480px;
-
+    margin: 0 auto;
 }
 
 .section2 div {
@@ -259,6 +259,10 @@ form {
     margin-top: 10px;
 }
 
+input {
+    text-align: center;
+}
+
 footer {
     height: 80px;
     display: flex;
@@ -275,7 +279,7 @@ footer a {
 #ugmong {
     font-weight: 600;
     text-align: end;
-    width: 45%;
+    width: 55%;
 }
 
 .nav1:hover,
